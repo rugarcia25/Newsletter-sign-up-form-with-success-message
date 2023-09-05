@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #36384d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 150px;
+  text-align: center;
+  width: 50%;
+  border-radius: 30px;
+  height: 600px;
+  background-color: white;
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+  padding: 2em;
+  border-radius: 30px;
+}
+
+.left-info {
+  display: block;
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.left-info > h1 {
+  font-size: 48px;
+}
+
+.left-info > p {
+  text-align: left;
+  margin-top: 25px;
+}
+
+ul {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  list-style-image: url("../assets/images/icon-list.svg");
+}
+
+li {
+  padding-top: 2px;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+form {
+  padding: 25px 0;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font: bold;
+}
+
+input {
+  width: 92%;
+  height: 4em;
+  padding-left: 25px;
+  border-radius: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #242743;
+  width: 100%;
+  height: 4em;
+  color: white;
+  font: bold;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #fe5967, #fe693f);
+}
+
+.right {
+  border-radius: 30px;
+  width: auto;
+}
+
+img {
+  width: 90%;
+  height: 100%;
+}
