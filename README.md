@@ -19,8 +19,6 @@ Users should be able to:
 - Solution URL: [https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-peuqI0bPa2]
 - Live Site URL: [https://rugarcia25.github.io/Newsletter-sign-up-form-with-success-message/]
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
