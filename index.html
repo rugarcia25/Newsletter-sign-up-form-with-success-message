@@ -1,43 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="css/index.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>
-      Frontend Mentor | Newsletter sign-up form with success message
-    </title>
-  </head>
-  <body>
-    <div class="card">
-      <div class="left">
-        <div class="left-info">
-          <h1>Stay updated!</h1>
-          <p>Join 60,000+ product managers receiving monthly updates on:</p>
-          <ul>
-            <li>Product discovery and building what matters</li>
-            <li>Measuring to ensure updates area success</li>
-            <li>And much more!</li>
-          </ul>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="css/index.css" />
+
+  <title>
+    Newsletter
+  </title>
+</head>
+
+<body>
+  <div class="card">
+    <div class="left">
+      <div class="left-info">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <br>
+        <ul>
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates area success</li>
+          <li>And much more!</li>
+        </ul>
+        <div class="form">
           <form action="confirm.html">
-            <label
-              >Email address
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="youremail@example.com"
-                required
-              />
+            <label>Email address
+              <input type="email" name="email" id="email" placeholder="youremail@example.com" required />
               <button type="submit" id="button">
                 Subscribe to monthly newsletter
               </button>
@@ -45,13 +37,12 @@
           </form>
         </div>
       </div>
-      <div class="right">
-        <img
-          src="assets/images/illustration-sign-up-desktop.svg"
-          alt="image form"
-        />
-      </div>
     </div>
-    <script src="./js/script.js"></script>
-  </body>
+    <div class="right">
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="image form" />
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
